@@ -5,8 +5,8 @@
     padding: 0;
 }
 body {
+    height: 80vh;
     box-sizing: border-box;
-    height: 100%;
     background-color:#010914;
     color:#FFFFFF;
     font-family: 'Anonymous Pro', serif;
@@ -15,14 +15,15 @@ body {
 
 
 #content_center {
-    margin: 10%;
+    margin: 8%;
     display: flex;
     background-color: #56667B;
     border-radius: 40px;
     align-items: center;
     justify-content: space-between;
     min-width:760px;
-    
+    max-width: 1200px;
+
 }
 
 .descricao {
@@ -90,8 +91,10 @@ p {
 .destaque {
     color:#00d0ff;
 }
+
 .perfil {
     display: flex;
     margin: 5px;
+    padding: 5px;
     border-radius: 40px;
 }
