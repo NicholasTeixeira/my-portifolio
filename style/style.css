@@ -55,15 +55,21 @@ main {
     font-weight: 700;
 }
 p {
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+}
+.texto {
     margin: 5px;
     padding: 10px;
-    font-size: 20px;
+    text-align: justify;
 }
 .citacao{
     margin: 10px;
 }
 .citacao__fala{
     margin-top: 10px;
+    padding:10px;
     font-size: 32px;
     font-weight: 400;
     font-style: italic;
@@ -72,6 +78,7 @@ p {
 
 .citacao__autor {
     margin-top: 10px;
+    padding:10px;
     margin-bottom: 10px;
     font-weight:inherit;
     font-weight: 700;
