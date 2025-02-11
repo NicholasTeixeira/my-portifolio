@@ -37,7 +37,7 @@ O objetivo deste projeto é praticar e aplicar os conhecimentos adquiridos em de
 
 Você pode acessar o projeto através do link Vercel abaixo:
 
-[Projeto Hospedado no Vercel](nicholas-teixeira-rh6klf7r7-nicholas-projects-37096d20.vercel.app)
+[Projeto Hospedado no Vercel](https://nicholas-teixeira.vercel.app/)
 
 ---
 
