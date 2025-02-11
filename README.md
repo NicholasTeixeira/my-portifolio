@@ -53,7 +53,7 @@ Você pode acessar o projeto através do link Vercel abaixo:
 
 Este projeto é parte do curso Oracle One em parceria com Alura, que tem como objetivo capacitar desenvolvedores através de uma formação completa e prática em desenvolvimento web.
 
-![Oracle One & Alura](https://www.oracle.com/a/ocom/img/solution-brief/oracle-alura.jpg)
+![Oracle One & Alura](https://www.oracle.com/br/education/oracle-next-education/)
 
 ---
 
