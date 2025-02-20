@@ -5,7 +5,8 @@
     padding: 0;
 }
 body {
-    height: 95vh;
+
+    height: 100vh;
     box-sizing: border-box;
     background-color: #010914;
     color: #FFFFFF;
@@ -21,7 +22,6 @@ body {
 header{
     margin: 0px;
     padding: 0px;
-    width: 100%;
 }
 
 .header {
@@ -29,19 +29,22 @@ header{
     flex-direction: column;
     justify-content: space-between;
     margin: 0px;
-    padding: 5px;
+    padding: 0px;
     padding-bottom: 0;
     background-color: #942b8d;
     width: 100%;
+    box-sizing: border-box;
 }
 
 .titulo {
+    margin: 10px;
     font-size: 64px;
     font-weight: 700;
 
 }
 
 .sub-tile {
+        margin: 10px;
     margin-bottom: 20px;
     font-size: 48px;
     font-weight: 700;
@@ -68,30 +71,30 @@ header{
     text-align: center;
     text-decoration: none;
 }
+.menu_botao:hover {
+    background-color: #9773cd;
+    color:#033ed5;
+}
 
 main {
-    margin: 10px;
-    padding: 10px;
-    min-width: 760px;
-    width: 80%;
-    height: auto;
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
+    flex-grow: 1;
+    width: 100%;
 }
 
 #content_center {
     display: flex;
-    justify-content: space-between;
-    margin: 18px;
-    flex-grow: 1;
-    max-width: 100%;
-
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+    margin: 15px
 }
 
 .descricao {
-    margin: 20px;
-    padding:25px;
+    margin: 10px;
+    padding:0px;
     width: 70%;
     gap: 40px;
 }
@@ -102,32 +105,11 @@ p {
     font-size: 20px;
 }
 .texto {
-    margin: 20px;
-    padding: 10px;
+    margin: 0px;
+    padding: 5px;
     text-align: justify;
 }
-.citacao{
-    margin: 20px;
-    padding: 10px;
-}
-.citacao__fala{
-    margin-top: 10px;
-    padding:10px;
-    font-size: 32px;
-    font-weight: 400;
-    font-style: italic;
-    text-align: center;
-}
 
-.citacao__autor {
-    margin-top: 10px;
-    padding:10px;
-    margin-bottom: 10px;
-    font-weight:inherit;
-    font-weight: 700;
-    font-style: italic;
-    text-align: right;
-}
 #botao {
     margin: 20px;
     padding: 5px;
@@ -143,7 +125,8 @@ p {
 }
 
 .botao {
-    border-radius: 40px;
+    display: flex;
+    border-radius: 10px;
     width: 260px;
     border: 2px solid #CC02BF;
     margin: 10px;
@@ -154,6 +137,23 @@ p {
     font-style: normal;
     text-align: center;
     text-decoration: none;
+    justify-content:center;
+    align-items: center;
+}
+
+.ico {
+    margin: 10px;
+    width: 51px;
+    height: auto;
+    background-color: #CC02BF;
+    border-radius: 40px;
+}
+
+.botao:hover{
+    border: 2px solid #071ff6;
+    background-color: #FFFFFF;
+    color:#071ff6;
+
 }
 
 .destaque {
@@ -162,23 +162,22 @@ p {
 
 .perfil {
     display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 5px;
     padding: 5px;
     border-radius: 40px;
-    width: 30%;
-    min-width: 30%;
-    height: auto;
-    object-fit: cover;
+    height: 450px;
 }
 
 .footer {
+    padding: 45px;
     width: 100%;
-    margin: 10px;
-    padding: 0px;
+    box-sizing: border-box;
+    color: #ffffff;
     background-color: #942b8d;
-    justify-content: space-between;
     display: flex;
     align-items: center;
-    
+    justify-content: center;
 
 }
