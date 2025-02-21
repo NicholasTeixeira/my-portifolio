@@ -90,27 +90,25 @@ header{
 }
 
 main {
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
     flex-grow: 1;
-    width: 100%;
+    width: 100$;
 }
 
 #content_center {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vh;
-    padding: 15px;
+    padding: 4.2% 10%;
 }
 
 #content_center_curriculo {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vh;
-    padding: 5px;
+    padding: 1% 10%;
 }
 
 .dados{
@@ -130,8 +128,8 @@ main {
 }
 
 .descricao {
-    /* margin: 10px; */
-    padding:25px;
+    margin: 0% 5px;
+    padding: 2% 10% ;
     width: 80%;
     gap: 40px;
 }
@@ -222,7 +220,7 @@ p {
 }
 
 .footer {
-    padding: 41px;
+    padding: 0.1%;
     width: 100%;
     box-sizing: border-box;
     color: var(--cor-secundaria);
