@@ -168,6 +168,15 @@ p {
     text-align: justify;
 }
 
+ul {
+    list-style-type: none;
+    padding-left: 0; /* remove o padding padrão */
+}
+
+li {
+    list-style-type: none;
+}
+
 .texto_1 {
     margin: 0px;
     padding: 2px;
@@ -302,15 +311,24 @@ p {
 
     #content_center, #content_center_curriculo {
         flex-direction: column-reverse;
-        padding: 2% 5%;
+        padding: 2% 1%;
     }
 
     main {
         flex-direction: column-reverse;
     }
+    
 
     .descricao {
-        width: 80%;
+        border-radius: 10px;
+        width: 90%;
+        padding: 2%;
+    }
+
+    .descricao__curriculo {
+        border-radius: 10px;
+        width: 90%;
+        padding: 2%;
     }
 
     p, .texto, .texto_1 {
