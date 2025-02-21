@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
 
+:root {
+    --cor-primaria: #CC02BF;
+    --cor-secundaria: #FFFFFF;
+    --cor-terciaria: #9773cd;
+    --cor-de-fundo: #010914;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -7,8 +14,8 @@
 body {
    /*height: 100vh;*/
     box-sizing: border-box;
-    background-color: #010914;
-    color: #FFFFFF;
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-secundaria);
     font-family: 'Anonymous Pro', serif;
     font-style: normal;
     margin: 0px;
@@ -29,7 +36,7 @@ header{
     margin: 0px;
     padding: 0px;
     padding-bottom: 0;
-    background-color: #942b8d;
+    background-color: var(--cor-primaria);
     width: 100%;
     box-sizing: border-box;
 }
@@ -63,14 +70,14 @@ header{
 }
 
 .menu_botao{
-    background-color: #AD5AC9;
+    background-color: var(--cor-terciaria);
     padding: 20px;
     display:inline-flex;
     justify-content: center;
     width: 500px;
     margin: 5px;
     padding: 15px;
-    color:#e9e9e9;
+    color:var(--cor-secundaria);
     font-size: 20px;
     font-weight: 700;
     font-style: normal;
@@ -78,7 +85,7 @@ header{
     text-decoration: none;
 }
 .menu_botao:hover {
-    background-color: #9773cd;
+    background-color: var(--cor-terciaria);
     color:#033ed5;
 }
 
@@ -166,10 +173,10 @@ p {
     display: flex;
     border-radius: 10px;
     width: 260px;
-    border: 2px solid #CC02BF;
+    border: 2px solid var(--cor-primaria);
     margin: 10px;
     padding: 15px;
-    color:#CC02BF;
+    color:var(--cor-primaria);
     font-size: 40px;
     font-weight: 700;
     font-style: normal;
@@ -183,19 +190,19 @@ p {
     margin: 10px;
     width: 51px;
     height: auto;
-    background-color: #CC02BF;
+    background-color: var(--cor-primaria);
     border-radius: 40px;
 }
 
 .botao:hover{
     border: 2px solid #071ff6;
-    background-color: #FFFFFF;
+    background-color: var(--cor-secundaria);
     color:#071ff6;
 
 }
 
 .destaque {
-    color:#00d0ff;
+    color:var(--cor-primaria);
 }
 
 .perfil {
@@ -209,7 +216,7 @@ p {
 }
 
 .perfil:hover {
-    border: 2px solid #CC02BF;
+    border: 2px solid var(--cor-primaria);
     height: 455px;
     width:auto;
 }
@@ -218,8 +225,8 @@ p {
     padding: 41px;
     width: 100%;
     box-sizing: border-box;
-    color: #ffffff;
-    background-color: #942b8d;
+    color: var(--cor-secundaria);
+    background-color: var(--cor-primaria);
     display: flex;
     align-items: center;
     justify-content: center;
